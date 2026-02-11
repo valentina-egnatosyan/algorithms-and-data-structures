@@ -10,6 +10,6 @@ function insertion_sort (arr) {
         arr[j + 1] = key;
 }
 }
-const arr = [-3, -44, 0, 3, 1];
-insertion_sort(arr);
-console.log(arr);
+const arr = [8,2,0,-3,9,1];
+insertion_sort(arr);  
+console.log(arr); 

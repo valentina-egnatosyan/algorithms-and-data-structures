@@ -36,7 +36,7 @@ function marge(left, right) {
 }
 
  
-  const arr = [2,6,1,-7,0,5];
+const arr = [8,2,0,-3,9,1];
   const sorted_arr = marge_sort(arr);
   console.log(sorted_arr);
 
