@@ -19,9 +19,5 @@ function counting_sort (arr) {
 
     return sorted;
 }
-
-const arr = [8,2,0,-3,9,1];
-const sorted_arr = counting_sort(arr);
-console.log(sorted_arr);
-
-
+const arr = [2,6,1,-7,0,5];
+console.log(counting_sort(arr));

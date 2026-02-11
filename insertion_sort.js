@@ -8,8 +8,8 @@ function insertion_sort (arr) {
             --j;
         }
         arr[j + 1] = key;
+    }
 }
-}
-const arr = [8,2,0,-3,9,1];
-insertion_sort(arr);  
-console.log(arr); 
+ const arr = [2,6,1,-7,0,5];
+ insertion_sort(arr); 
+ console.log(arr);

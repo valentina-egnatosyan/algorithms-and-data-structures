@@ -8,6 +8,7 @@ function bubble_sort (arr) {
     }
 }
 
-const arr = [8,2,0,-3,9,1];
-bubble_sort(arr);  
-console.log(arr); 
+
+const arr = [2,6,1,-7,0,5];
+bubble_sort(arr);
+console.log(arr);

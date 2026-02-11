@@ -7,9 +7,9 @@ function selection_sort(arr) {
             }
         }
         [arr[minIndex], arr[i]] = [arr[i], arr[minIndex]];
-        }
+    }
 }
-const arr = [8,2,0,-3,9,1];
-selection_sort(arr);   
-console.log(arr);     
 
+const arr = [2,6,1,-7,0,5];
+selection_sort(arr);
+console.log(arr);
