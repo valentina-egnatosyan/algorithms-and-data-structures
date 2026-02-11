@@ -1,0 +1,13 @@
+function bubble_sort (arr) {
+    for (let i = 0; i < arr.length; ++i) {
+        for(let j = 0; j < arr.length - 1; ++j) {
+           if (arr[j] > arr[j + 1]) {
+            [arr[j], arr[j + 1]] = [arr[j+ 1], arr[j]];
+           }
+        }
+    }
+}
+
+const arr = [20,12,9,0, -54];
+bubble_sort(arr);
+console.log(arr);
